@@ -1,0 +1,451 @@
+@charset "UTF-8";
+
+body {
+  font-size: 15px;
+  font-family: YuGothic;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+/*header*/
+.header-banner {
+  z-index: 1000000;
+  position: fixed;
+  width: 100%;
+  background-color: #2CFFB3;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+}
+
+.header-icon {
+  padding-top: 1.2em;
+  padding-right: 10em;
+}
+
+.header-menu {
+  width: 50%;
+}
+
+.header-menu ul {
+  display: flex;
+  padding-left: 2em;
+  padding-top: 1.8em;
+}
+
+.header-menu li {
+  padding-left: 3em;
+  font-size: 14px;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.header-menu li:hover {
+  color: rgb(255, 216, 22);
+}
+
+.pan-list {
+  position: fixed;
+  padding-top: 7em;
+  padding-left: 5em;
+}
+
+.pan-list ul {
+  display: flex;
+}
+
+.pan-list li {
+  color: black;
+  font-size: 15px;
+}
+
+.pan-list li:hover {
+  color: black;
+}
+
+.pan-next {
+  color: #099E06;
+}
+
+/*footer*/
+i {
+  color: white;
+}
+
+.footer-wrap {
+  text-align: center;
+  background-color: #1E671D;
+  color: white;
+}
+
+.footer-wrap p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-top p {
+  color: white;
+  padding-top: 3em;
+}
+
+.riyou {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.riyou p {
+  color: white;
+}
+
+.sisetu {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.sisetu p {
+  color: white;
+  padding: 0 2em;
+}
+
+.sns {
+  padding-bottom: 2em;
+}
+
+.copy-light {
+  padding-top: 1em;
+  padding-bottom: 3em;
+  font-size: 11px;
+}
+
+.footer-wrap p:hover {
+  color: #ffe30b;
+}
+
+.sns h5 {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.sns-icon i {
+  padding: 0 1em;
+  padding-top: 0.4em;
+}
+
+.sns i:hover {
+  color: #ffe30b;
+}
+
+.line {
+  margin: 2.7rem 1rem;
+  width: 2px;
+  background-color: #000;
+  height: 20px;
+}
+
+.line-two {
+  margin: 0.3rem 1rem;
+  width: 2px;
+  background-color: #000;
+  height: 20px;
+}
+
+.wrap {
+  text-align: center;
+
+  padding-top: 9em;
+}
+
+.servis-title {
+  position: relative;
+  margin-bottom: 3em;
+}
+
+.servis-title img {
+  z-index: 10;
+  width: 20%;
+}
+
+.servis-title h2 {
+  font-size: 23px;
+  z-index: 1000;
+  color: white;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+main {
+  background-color: #FBFFEB;
+  width: 100%;
+}
+
+.wrap {
+  padding-bottom: 4em;
+}
+
+/*ここから変更*/
+.contact_item {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.contact_txt {
+  width: 40%;
+  line-height: 1.8;
+  font-size: 1.25rem;
+}
+.contact_form {
+  width: 100%;
+  margin: 0 auto;
+}
+.contact_box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1%;
+  justify-content: center;
+  
+}
+
+.contact_box._area {
+  align-items: baseline;
+}
+.contact_form_box1,
+.contact_form_box2 {
+  height: 3vh;
+  width: 40%;
+  padding-left: 5px;
+  font-size: 1rem;
+}
+.contact_txtarea {
+  width: 40%;
+  height: 30vh;
+  font-size: 1rem;
+  padding: 5px;
+}
+.contact_form_ttl {
+  width: 40%;
+  height: 100%;
+  font-size: 1rem;
+  position: relative;
+}
+
+.contact_form_ttl::after {
+  content: "必須";
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+  width: 15%;
+  line-height: 2.5;
+  font-size: 0.5rem;
+  color: #c72930;
+  border: 1px solid #c72930;
+  border-radius: 2px;
+}
+.contact_btn {
+  display: block;
+  color: #fff;
+  background: #000;
+  transition: 0.4s;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.contact_btn:hover {
+  color: #000;
+  background: #fff;
+  transition: 0.4s;
+}
+@media screen and (max-width: 1024px) {
+.contact_form_box1,
+.contact_form_box2 {
+  width: 50%;
+}
+.contact_txtarea {
+  width: 50%;
+}
+}
+@media screen and (max-width: 768px) {
+  header .drawer {
+    visibility: visible;
+    width: 24px;
+    position: absolute;
+    top: 29px;
+    right: 20px;
+    border-top: solid 4px rgb(0, 0, 0);
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  header .drawer::before,
+  header .drawer::after {
+    content: "";
+    display: block;
+    width: 24px;
+    background: rgb(0, 0, 0);
+    height: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+  }
+
+  header .drawer::before {
+    top: 6px;
+  }
+
+  header .drawer::after {
+    top: 15px;
+  }
+
+  header .header-menu {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background: rgb(181, 244, 183);
+    text-align: center;
+    padding-top: 30%;
+    opacity: 0.9;
+  }
+
+  header .header-menu ul {
+    display: block;
+    padding: 1em;
+  }
+
+  .header-menu li {
+    padding-left: 0;
+  }
+
+  header .header-menu ul li {
+    margin: 5% auto;
+    font-size: 20px;
+  }
+
+  header .header-menu ul li a {
+    line-height: 3;
+    font-size: 1.75rem;
+  }
+
+  header .header-menu ul li.contact {
+    width: 30%;
+  }
+
+  body.nav-open header .drawer {
+    border-top: 0;
+    margin: 0;
+  }
+
+  body.nav-open header .drawer::before {
+    top: 9px;
+    transform: rotate(-45deg);
+  }
+
+  body.nav-open header .drawer::after {
+    top: 9px;
+    transform: rotate(45deg);
+  }
+
+  .header-icon {
+    padding: 0;
+    padding-top: 1.2em;
+  }
+
+  .servis-title img {
+    width: 30%;
+  }
+
+  .servistitle-img img {
+    width: 7%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-icon {
+    padding-right: 2em;
+  }
+
+  .servis-title h2 {
+    font-size: 17px;
+  }
+
+  .header-icon img {
+    width: 90%;
+    padding-top: 0.3em;
+  }
+
+  .servis-title img {
+    width: 50%;
+  }
+
+  .servis-title {
+    margin: 0;
+  }
+
+  .servistitle-img img {
+    width: 13%;
+  }
+
+  .kihon h3 {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .sisetu {
+    display: none;
+  }
+  .contact_form_ttl{
+    font-size: 10px;
+    padding-right: 3em;
+  }
+  .contact_form_ttl::after {
+    display: ;
+  }
+    .contact_form_box1,
+    .contact_form_box2 {
+      margin-right : 1em;
+  }
+  .contact_txtarea {
+    margin-right: 1em;
+  }
+  .contact_form_ttl::after {
+    font-size: 2px;
+    width: 15%;
+    line-height: 18px;
+  }
+  .contact_form_ttl_ttl::after{
+    font-size: 2px;
+    width: 15%;
+    line-height: 10px;
+  }
+}

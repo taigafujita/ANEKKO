@@ -1,0 +1,432 @@
+@charset "UTF-8";
+
+body {
+  font-size: 15px;
+  font-family: YuGothic;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  
+}
+
+/*header*/
+.header-banner {
+  z-index: 1000000;
+  position: fixed;
+  width: 100%;
+  background-color: #2CFFB3;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+}
+
+.header-icon {
+  padding-top: 1.2em;
+  padding-right: 10em;
+}
+
+.header-menu {
+  width: 50%;
+}
+
+.header-menu ul {
+  display: flex;
+  padding-left: 2em;
+  padding-top: 1.8em;
+}
+
+.header-menu li {
+  list-style: none;
+  padding-left: 3em;
+  font-size: 14px;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.header-menu li:hover {
+  color: rgb(255, 216, 22);
+}
+
+.pan-list {
+  position: fixed;
+  padding-top: 7em;
+  padding-left: 5em;
+}
+
+.pan-list ul {
+  display: flex;
+}
+
+.pan-next {
+  color: #099E06;
+  padding-left: 1em;
+}
+
+.pan-list li {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  list-style: none;
+}
+
+.pan-list li:hover {
+  color: black;
+}
+
+
+/*footer*/
+i {
+  color: white;
+}
+
+.footer-wrap {
+  text-align: center;
+  background-color: #1E671D;
+  color: white;
+}
+
+.footer-wrap p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-top p {
+  color: white;
+  padding-top: 3em;
+}
+
+.riyou {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.riyou p {
+  color: white;
+}
+
+.sisetu {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.sisetu p {
+  color: white;
+  padding: 0 2em;
+}
+
+.sns {
+  padding-bottom: 2em;
+}
+
+.copy-light {
+  padding-top: 1em;
+  padding-bottom: 3em;
+  font-size: 11px;
+}
+
+.footer-wrap p:hover {
+  color: #ffe30b;
+}
+
+.sns h5 {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.sns-icon i {
+  padding: 0 1em;
+  padding-top: 0.4em;
+}
+
+.sns i:hover {
+  color: #ffe30b;
+}
+
+.line {
+  margin: 2.7rem 1rem;
+  width: 2px;
+  background-color: #000;
+  height: 20px;
+}
+
+.line-two {
+  margin: 0.3rem 1rem;
+  width: 2px;
+  background-color: #000;
+  height: 20px;
+}
+main {
+  background-color: #FBFFEB;
+  width: 100%;
+}
+/*ここから変更*/
+.wrap{
+  text-align: center;
+}
+.servistitle-img{
+  padding-top: 10em;
+}
+.servistitle-img img {
+  width: 7%;
+}
+
+.servis-title {
+  position: relative;
+  margin-bottom: 3em;
+}
+
+.servis-title img {
+  z-index: 10;
+  width: 250px;
+}
+
+.servis-title h2 {
+  font-size: 23px;
+  z-index: 1000;
+  color: white;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.main{
+  display: flex;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.main p{
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 3em;
+}
+.pix{
+  width: 90%;
+  margin: 0 auto;
+}
+.hur-one{
+  width: 30%;
+  margin: 0 auto;
+}
+.hur-two{
+  width: 31%;
+  margin: 0 auto;
+}
+.hur-three{
+  width: 16%;
+  margin: 0 auto;
+}
+.tate{
+  display: flex;
+    flex-flow: column;
+}
+.solo{
+  display: flex;
+  flex-flow: column;
+  padding: 0 1em;
+}
+.family{
+  padding: 0 1em;
+}
+.friends{
+  padding: 0 1em;
+}
+
+.rental-title h3{
+  font-size: 30px;
+  font-weight: 400;
+  border-top: 3px #FFA620 solid;
+  width: 400px;
+  margin: 2em auto 0.5em auto;
+  padding-top: 2em;
+  padding-right: 1em;
+}
+.rental-title h4{
+  font-size: 20px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+.rental-main{
+  display: flex;
+  justify-content: center;
+  border: #1E671D 2px solid;
+  width: 30%;
+  padding: 2em;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.rental-left{
+  padding: 0 2em;
+}
+.rental-right {
+  padding: 0 2em;
+}
+.wrap{
+  padding-bottom: 3em;
+}
+@media screen and (max-width: 1024px) {
+  .hur-one{
+    width: 50%;
+  }
+  .hur-two{
+    width: 51%;
+  }
+  .hur-three{
+    width: 30%;
+  }
+  .solo p{
+    width: 80%;
+  }
+  .family p{
+    width: 80%;
+  }
+  .friends p{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .drawer {
+    visibility: visible;
+    width: 24px;
+    position: absolute;
+    top: 29px;
+    right: 20px;
+    border-top: solid 4px rgb(0, 0, 0);
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  header .drawer::before,
+  header .drawer::after {
+    content: "";
+    display: block;
+    width: 24px;
+    background: rgb(0, 0, 0);
+    height: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+  }
+
+  header .drawer::before {
+    top: 6px;
+  }
+
+  header .drawer::after {
+    top: 15px;
+  }
+
+  header .header-menu {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background: rgb(181, 244, 183);
+    text-align: center;
+    padding-top: 30%;
+    opacity: 0.9;
+  }
+
+  header .header-menu ul {
+    display: block;
+    padding: 1em;
+  }
+
+  .header-menu li {
+    padding-left: 0;
+  }
+
+  header .header-menu ul li {
+    margin: 5% auto;
+    font-size: 20px;
+  }
+
+  header .header-menu ul li a {
+    line-height: 3;
+    font-size: 1.75rem;
+  }
+
+  header .header-menu ul li.contact {
+    width: 30%;
+  }
+
+  body.nav-open header .drawer {
+    border-top: 0;
+    margin: 0;
+  }
+
+  body.nav-open header .drawer::before {
+    top: 9px;
+    transform: rotate(-45deg);
+  }
+
+  body.nav-open header .drawer::after {
+    top: 9px;
+    transform: rotate(45deg);
+  }
+
+  .header-icon {
+    padding: 0;
+    padding-top: 1.2em;
+  }
+}
+  /*ここまでヘッダー*/
+@media screen and (max-width: 480px) {
+  .rental-title h3{
+    width: 100px;
+    font-size: 20px;
+  }
+  .rental-main{
+    width: 70%;
+  }
+  .main{
+    display: block;
+  }
+  .family {
+    padding-top: 2em;
+  }
+  .friends {
+    padding-top: 2em;
+  }
+  .servistitle-img img{
+    width: 20%;
+  }
+  .servis-title{
+    margin: 0;
+  }
+  .sisetu {
+    display: none;
+  }
+  .header-icon {
+    padding-right: 2em;
+  }
+  .servis-title h2{
+    font-size: 20px;
+  }
+  .header-icon img{
+    width: 90%;
+    padding-top: 0.3em;
+  }
+}
